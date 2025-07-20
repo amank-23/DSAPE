@@ -126,12 +126,12 @@ DSAPE/
 │   ├── log.txt
 │   └── client_log.txt
 ├── docs/
-│   ├── CNProj_Report.pdf
 │   └── Assets/
 ├── scripts/
 ├── build.bat
 ├── test.bat
-└── LICENSE               
+└── LICENSE
+
 ```
 
 </div>
