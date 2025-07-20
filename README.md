@@ -106,9 +106,10 @@ _Figure 1: Complete DSAPE system running with all components active_
 
 ## Architecture
 
-<div align="center">
+<details>
+<summary>Click to expand</summary>
 
-```
+```bash
 DSAPE/
 ├── src/
 │   ├── server.c
@@ -131,10 +132,7 @@ DSAPE/
 ├── build.bat
 ├── test.bat
 └── LICENSE
-
-```
-
-</div>
+</details> ```
 
 ## Quick Start
 
