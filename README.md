@@ -103,11 +103,8 @@ _Figure 1: Complete DSAPE system running with all components active_
 - **Cross-platform Ready**: Windows Socket implementation with portability considerations
 - **Modular Design**: Clean separation of concerns between components
 - **Easy Testing**: Automated test scripts for various scenarios
-
+  
 ## Architecture
-
-<details>
-<summary>Click to expand</summary>
 
 ```bash
 DSAPE/
@@ -132,8 +129,6 @@ DSAPE/
 ├── build.bat
 ├── test.bat
 └── LICENSE
-</details> ```
-
 ## Quick Start
 
 ### Method 1: One-Click Setup (Recommended)
