@@ -110,28 +110,28 @@ _Figure 1: Complete DSAPE system running with all components active_
 
 ```
 DSAPE/
-├── src/                    # Source code files
-│   ├── server.c           # Server implementation
-│   ├── client.c           # Client implementation
-│   └── authenticator.c    # Token generator
-├── include/               # Header files
-│   └── shared_secret.h    # Shared secret management
-├── bin/                   # Compiled executables
+├── src/
+│   ├── server.c
+│   ├── client.c
+│   └── authenticator.c
+├── include/
+│   └── shared_secret.h
+├── bin/
 │   ├── server.exe
 │   ├── client.exe
 │   └── authenticator.exe
-├── config/                # Configuration files
-│   └── shared_secret.txt  # Shared secret storage
-├── logs/                  # Log files
-│   ├── log.txt           # Server logs
-│   └── client_log.txt    # Client logs
-├── docs/                  # Documentation & assets
-│   ├── CNProj_Report.pdf # Project report
-│   └── Assets/           # Screenshots
-├── scripts/               # Build scripts (legacy)
-├── build.bat             # Main build & run script
-├── test.bat              # Multi-client test runner
-└── LICENSE               # MIT License
+├── config/
+│   └── shared_secret.txt
+├── logs/
+│   ├── log.txt
+│   └── client_log.txt
+├── docs/
+│   ├── CNProj_Report.pdf
+│   └── Assets/
+├── scripts/
+├── build.bat
+├── test.bat
+└── LICENSE               
 ```
 
 </div>
@@ -406,7 +406,7 @@ int connect_client(char* server_ip); // Establish client connection
 | ------------------ | ------------------------ | --------------- |
 | `.\build.bat`      | Build and run everything | **Main usage**  |
 | `.\test.bat`       | Run test suite           | **Testing**     |
-| `.\run_all.bat`    | Original launch method   | **Legacy**      |
+| `.\run_all.bat`    | Original launch method   | **All in One**  |
 | `.\bin\server.exe` | Server only              | **Development** |
 
 </div>
